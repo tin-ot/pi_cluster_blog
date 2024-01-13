@@ -18,12 +18,14 @@ I may open my code.
 
 main goal :
 
+```mermaid
 flowchart LR
     A(wild) --> |fa:fa-certificate PubIP| B[fa:fa-shield-alt Livebox5]
     B --> C{fa:fa-arrows-alt Mikrotik\nCRS112-8P-4S}
     C -->|Ip 1| D[fa:fa-server Pi4_01]
     C -->|Ip 2| E[fa:fa-server Pi4_02]
     C -->|Ip 3| F[fa:fa-server Pi5_03]
+```
 
 Having any Pi that could fail at any given point.
 
