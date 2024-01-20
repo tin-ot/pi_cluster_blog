@@ -14,12 +14,15 @@ Summary:
 
 - [week num $(date +%V) $date_title](#$(echo week num """$(date +%V)""" """$date_title""" | sed 's/ /-/g' | sed 's@/@@g' | sed 's/.*/\L&/'))
   - [Technical](#technical)
+  - [Issues](#issues)
   - [Procurements](#procurements)
   - [Next Week objective](#next-week-objective)
 
 ---
 
 ## Technical
+
+## Issues
 
 ## Procurements
 
